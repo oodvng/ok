@@ -1,0 +1,78 @@
+
+/* Add font files for Helvetica Neue */
+@font-face {
+  font-family: 'Helvetica Neue';
+  src: url('fonts/helvetica-neue.woff2') format('woff2'),
+       url('fonts/helvetica-neue.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+:root {
+  --font-family-helvetica-neue: 'Helvetica Neue', sans-serif;
+}
+
+
+/* CSS Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.text-2 {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 58px;
+  height: 24px;
+  font-size: 20px;
+  font-family: var(--font-family-helvetica-neue);
+  font-weight: bold;
+  text-align: left;
+  color: rgba(0, 0, 0, 1);
+}
+
+.text-3 {
+  position: absolute;
+  left: 1369px;
+  top: 0px;
+  width: 71px;
+  height: 24px;
+  font-size: 20px;
+  font-family: var(--font-family-helvetica-neue);
+  font-weight: bold;
+  text-align: left;
+  color: rgba(0, 0, 0, 1);
+}
+
+.artboard-2-1-4 {
+  position: absolute;
+  left: 70px;
+  top: 272px;
+  width: 1299px;
+  height: 621px;
+  width: 100%;
+  height: auto;
+}
+
+.013110460001-1-5 {
+  position: absolute;
+  left: 498px;
+  top: 1106px;
+  width: 444px;
+  height: 637px;
+  width: 100%;
+  height: auto;
+}
+
+.desktop-1-1 {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 0px;
+  height: 0px;
+  position: relative;
+  width: 100%;
+  height: auto;
+  background-color: rgba(255, 255, 255, 1);
+}
